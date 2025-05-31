@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontanería Balmis - Iniciar Sesión</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles_login.css" />
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <span>⚗️</span>
+            <span><a href="index.html">Fontanería Balmis</a></span>
+        </div>
+       <nav>
+    <ul>
+        <li><a href="Servicios.html">Servicios</a></li>
+        <li><a href="Productos.html">Productos</a></li>
+        <li><a href="Gestion.html">Gestión</a></li>
+    </ul>
+</nav>
+ <div class="header-actions">
+    <a href="Registro.html" class="btn btn-register-nav">Registrarse</a>
+    <a href="LogIn.html" class="btn btn-login-nav">Iniciar Sesión</a>
+    <input class="search" type="text" placeholder="🔍 Buscar...">
+</div>
+    </header>
+
+    <main>
+        <div class="login-form-outer-container">
+            <div class="card login-card-override">
+                <div class="form-icon-container">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="lock-icon">
+                        <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                        <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                    </svg>
+                </div>
+                <h2>Iniciar Sesión</h2>
+
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="email">Correo electrónico</label>
+                        <input type="email" id="email" name="email" required placeholder="tu@ejemplo.com">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="password">Contraseña</label>
+                        <input type="password" id="password" name="password" required placeholder="••••••••">
+                    </div>
+
+                    <div class="form-options">
+                        <div class="remember-me">
+                            <input type="checkbox" id="remember" name="remember">
+                            <label for="remember">Recordarme</label>
+                        </div>
+                        <a href="#" class="forgot-password">¿Olvidaste tu contraseña?</a>
+                    </div>
+
+                    <button type="submit" class="btn-login">Iniciar sesión</button>
+
+                    <div class="signup-link">
+                        <p>¿No tienes cuenta? <a href="#">Regístrate</a></p>
+                    </div>
+                </form>
+            </div>
+            </section>
+    </main>
+
+    <footer>
+        <div class="footer-top">
+            <div class="footer-section">
+                <h4>Contacto</h4>
+                <p>📞 +34 123 456 789</p>
+                <p>📧 info@fontaneriabalmis.com</p>
+                <p>📍 Calle Principal 123, Madrid</p>
+            </div>
+
+            <div class="footer-section">
+                <h4>Horarios</h4>
+                <p>Lunes - Viernes: 8:00 - 18:00</p>
+                <p>Sábados: 9:00 - 14:00</p>
+                <p>Emergencias: 24/7</p>
+            </div>
+
+            <div class="footer-section">
+                <h4>Síguenos</h4>
+                <p><a href="#">Facebook</a></p>
+                <p><a href="#">Instagram</a></p>
+                <p><a href="#">WhatsApp</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 Fontanería Balmis. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
